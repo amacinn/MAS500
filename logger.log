@@ -1,0 +1,4 @@
+INFO:root:Successful implementation.
+INFO:urllib3.connectionpool:Starting new HTTPS connection (1): api.mediacloud.org
+ERROR:mediacloud.api:Bad HTTP response to https://api.mediacloud.org/api/v2/sentences/count?q=%28Facebook%29&fq=publish_date%3A%5B1999-12-31T00%3A00%3A00Z+TO+2000-12-31T00%3A00%3A00Z%7D&fq=media_sets_id%3A1&split=0&key=5b716d3677ff7d4844a60634ba9aef8dfe41c01e01739e91e6e1f3c72fef94a5&split_daily=0 : 403 Forbidden
+ERROR:mediacloud.api:	{"error":"Error(s): User exceeded weekly requests limit of 1000. You have exceeded your quota of requests or stories.  See your profile page \nat https://core.mediacloud.org/admin/profile for your current usage and limits.  \nContact info@mediacloud.org with quota questions.\n"}
